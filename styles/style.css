@@ -1,0 +1,153 @@
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h5 {
+    font-family: Lobster;
+    font-weight: bold;
+  }
+
+label{
+    font-family: Lobster;
+    font-weight: bold;
+}  
+br{
+    line-height: 300%;
+}
+
+#header-background {
+
+    color: rgb(255, 0, 0);
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+
+  .section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .section h1 {
+    color: #255aaf;
+    text-align: center;
+    font-size: 6rem;
+    font-family: "Cookie";
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+    opacity: 0.7;
+  }
+
+  .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+  }
+  
+  .color-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(198, 224, 238);
+    width: 100%;
+    height: 100vh;
+    opacity: 0.4;
+  }
+
+#banner {
+    background: #fff;
+    text-align: center;
+    padding: 4.5em 0 4.5em 0;
+    margin-bottom: 0;
+}
+
+/* INPUT FORM */
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4287f5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3162b1;
+  }
+  
+  /* Style the container/contact section */
+
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 15px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .send_form_image
+  {
+    width:105%;
+    margin-left: 50px;
+    filter: blur(2px);
+    box-shadow: 1px 1px 20px  #888888;
+  }
+
+  img:hover {
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+  /* ANIMACJA ZDJĘCIA */ 
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
