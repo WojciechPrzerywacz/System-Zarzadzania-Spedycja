@@ -16,12 +16,17 @@ How does it work:
 
 It allows to login onto one of accounts created by administrator.
 
+![trucks1](https://user-images.githubusercontent.com/72929154/116014042-816ed780-a633-11eb-8435-b577ad2fa13b.gif)
+
 
 Then you can manage your orders and drivers by adding, deleting them, or defining details needed for specific order.
 Each order is associated with driver and speditor who created it.
 
+![trucks2](https://user-images.githubusercontent.com/72929154/116014059-9481a780-a633-11eb-8897-d51f894501c9.gif)
+
 
 Also created whole database needed for project.
+![Screenshot_6](https://user-images.githubusercontent.com/72929154/116014064-9fd4d300-a633-11eb-8d49-b3910a20a4fa.png)
 
 
 How to run it:
