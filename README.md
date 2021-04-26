@@ -2,7 +2,7 @@
 
 About:
 One of my first projects associated with web-development.
-It's simple online system to help manage transport/shipping company using PHP and database created from scratch.
+It's simple online system to help forwarders manage transport/shipping company. Developed using PHP and database created from scratch.
 It lacks some important features like encrypted log in system or responsive front page. These are coming soon.
 However it's one of my first projects so take it with a grain of salt in terms of website design :)
 
@@ -20,7 +20,7 @@ It allows to login onto one of accounts created by administrator.
 
 
 Then you can manage your orders and drivers by adding, deleting them, or defining details needed for specific order.
-Each order is associated with driver and speditor who created it.
+Each order is associated with driver and forwarder who created it.
 
 ![trucks2](https://user-images.githubusercontent.com/72929154/116014059-9481a780-a633-11eb-8897-d51f894501c9.gif)
 
